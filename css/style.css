@@ -1,6 +1,209 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: aqua;
+    box-sizing: border-box;    
+}
+
+/* AGRAGADO DE FUENTES*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+/*ESTILOS AL NAV*/
+.navbar-nav li:first-child a:hover {
+  color: rgb(53, 7, 221); 
+}
+
+
+/* ESTILOS DEL BODY*/
+#body{
+  font-family: 'Comfortaa', sans-serif;
+  background-color: rgba(126, 122, 122, 0.856);
+
+}
+
+#maiin {
+  display: flex;
+  width: 100%;
+}
+
+#left-column {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#right-column {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+  position: relative;
+}
+
+#button-container {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+#button-container input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#image-container {
+  position: relative;
+}
+
+#social-buttons {
+  position: absolute;
+  bottom: 550px;
+  left: 85%;
+  transform: translateX(-50%);
+  width: 100px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.BanerPlanes1,
+.BanerPlanes2,
+.BanerPlanes3,
+.BanerPlanes4 {
+  text-align: center;
+}
+
+.BanerPlanes1 img,
+.BanerPlanes2 img,
+.BanerPlanes3 img,
+.BanerPlanes4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.ContactoContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.FormContac,
+.ImagenContac {
+  flex: 1;
+  max-width: 45%; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.ImagenContac img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+/* ESTILOS DEL FOOTER */
+
+#footer {
+  width: 100%;
+  background-color: rgb(32, 172, 32);
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  list-style: none;
+  font-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.ArtFot1,
+.ArtFot2,
+.ArtFot3 {
+  width: 30%; 
+  display: inline-block;
+  vertical-align: top;
+  text-align: left; 
+  margin-top: 20px; 
+}
+
+.ArtFot2 {
+  text-align: center;
+}
+
+.ArtFot3 {
+  text-align: right;
+}
+
+.ArtFot2 ul {
+  display: block;
+  padding: 0;
+}
+
+.ArtFot2 li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ArtFot2 a {
+  color: #fff;
+}
+
+.ArtFot3 h6,
+.ArtFot3 p {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.fa-whatsapp {
+  font-size: 24px;
+  color: #fff;
+}
+.fa-whatsapp {
+  font-size: 24px;
+  color: #fff;
 }
